@@ -16,8 +16,12 @@ Make it to the last level, defeat the evil monster, win the game!
 -------------------------------
 Operation guide (Keyboard operation) :	
 -------------------------------
-A: Left		D: Right		Space: jump	K: Melee attack	
-Shift + A/D: Speed up		J: Long range attack
+A: Left		
+D: Right		
+Space: jump	
+K: Melee attack	
+Shift + A/D: Speed up		
+J: Long range attack
 
 
 -------------------------------
@@ -28,6 +32,7 @@ Player:
 The player will have two attacking models: melee and shooting attach; during each cooling down, the player is allowed to shoot five times. The initial HP is 100 points. All the items can interact with the player
 
 Enemy:
+
 All the enemies are finite-state machines; each frame calls a different function based on the enemy's state. The enemies detect the distance between themselves and the player using the searching function to change their state. The enemies allow to change their it from any kind of different state.
 The basic attacking model for the enemies is melee attacking and shooting. The first advance attacking model is teleporting to the player's back and melee attack. If this model is not during the cooling down, the enemy will detach the model. The second advance attacking model is attacking during the dash. The enemy will call the attack function and dash to the player at double speed. The last advanced attacking model is switched between melee and shotting depending on the distance between the player and the enemy itself.
 The boss has three phases, and each phase will bear attacked five times. The first phase is constantly at the third advanced attacking model above; after the player attacks the boss five times, the boss will go to the second phase. During the second phase, two dummy enemies will be summoned; also, the first advanced attacking model will be used. At the lase phase, the second model will use.
