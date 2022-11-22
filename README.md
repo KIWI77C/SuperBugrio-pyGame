@@ -1,11 +1,16 @@
+-------------------------------
 SUPER BUGRIO
+-------------------------------
 
 How to start the game: run the "main.py" file
 
 Developed with: Python 3.9.0
+
 Libraries: pygame 2.1.0
+
 Resolution: 1000*800
-Support operating system: mac,windows,linux
+
+Support operating system: mac, windows, linux
 
 
 -------------------------------
@@ -16,11 +21,16 @@ Make it to the last level, defeat the evil monster, win the game!
 -------------------------------
 Operation guide (Keyboard operation) :	
 -------------------------------
-A: Left		
-D: Right		
-Space: jump	
+A: Left
+
+D: Right
+
+Space: jump
+
 K: Melee attack	
-Shift + A/D: Speed up		
+
+Shift + A/D: Speed up
+
 J: Long range attack
 
 
@@ -80,7 +90,7 @@ CONTRIBUTE
 
 2. Modified and debugged the platform data in the map, the position of the game characters.
 
-3. Involved the use of prop classes by enemies and players, who use bullets and swords against each other, modified the attributes of the props according to the state of the game characters.
+3. Participated the use of prop classes by enemies and players, who use bullets and swords against each other, modified the attributes of the props according to the state of the game characters.
 
 4. Updated menu information (HP/LEVEL/TIME).
 
